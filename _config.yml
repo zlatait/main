@@ -59,11 +59,11 @@ compress_html: # http://jch.penibelst.de/
 
 # Structure
 navigation:
-  - title: Projects
+  - title: Мої роботи
     url: /
-  - title: About
+  - title: Про мене
     url: /about
-  - title: Contact
+  - title: Контакти
     url: /contact
 
 permalink: /:title/

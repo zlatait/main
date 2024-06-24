@@ -1,0 +1,82 @@
+# plugins:
+
+exclude:
+  - readme.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+
+include:
+  - _pages
+  - _redirects
+
+# Site settings
+title: Zlata Mecheva
+long-title: Zlata Mecheva - Shtory
+email:
+description: "Tratata..."
+baseurl: ""
+url: "https://www.shtory-zlata.pp.ua" # the base hostname & protocol for your site
+timezone: Europe/Ukraine
+year: 2024
+start-year: 2024
+sitemap: true
+
+# Social networks
+social-username:
+  twitter:
+  linkedin:
+  github:
+  medium: 
+  pinterest:
+  instagram:
+  flickr:
+
+# Content
+image_serve_path: "/images" # <img src="{{ site.image_serve_path }}/projects/img.jpg">
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+# Sass output
+sass:
+  style: compressed # :nested :compact :expanded :compressed
+
+compress_html: # http://jch.penibelst.de/
+  enabled: true # compress html
+  clippings: all # clip safe tags
+  comments: []
+  endings: []
+  #ignore:
+    #envs: [local]
+  blanklines: false # boolean - strip blank lines and breaks
+  profile: false
+  startings: []
+
+
+# Structure
+navigation:
+  - title: Projects
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+
+permalink: /:title/
+
+# Configure site collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"

@@ -16,8 +16,8 @@ long-title: Zlata Mecheva - Shtory
 email:
 description: "Tratata..."
 baseurl: ""
-url: "https://www.shtory-zlata.pp.ua" # the base hostname & protocol for your site
-timezone: Europe/Ukraine
+url: "https://www.shtory-zlata.pp.ua"
+timezone: Europe/Helsinki
 year: 2024
 start-year: 2024
 sitemap: true
